@@ -10,7 +10,7 @@ import traceback  # 用于在测试部分打印完整的错误堆栈
 # 这种做法通常不推荐用于生产环境或需要稳定运行的脚本。
 
 def get_openai_api_response_cot(msg, max_retries=3):
-    OPENROUTER_API_KEY = "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"  # <--- 在这里替换您的API Key
+    OPENROUTER_API_KEY = "sk-or1"  # <--- 在这里替换您的API Key
 
     # 初始化 OpenAI 客户端。如果此处发生错误，程序将崩溃。
     client = OpenAI(
